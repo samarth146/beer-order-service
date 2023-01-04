@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.github.sfg-beer-works</groupId>
         <artifactId>sfg-brewery-bom</artifactId>
-        <version>1.0.13</version>
+        <version>1.0.17</version>
     </parent>
 
     <groupId>guru.springframework</groupId>
@@ -35,11 +35,11 @@
             <artifactId>awaitility</artifactId>
             <scope>test</scope>
         </dependency>
-       <!--   <dependency>
+         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-gateway</artifactId>
         </dependency>
-        <dependency>	
+        <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
         </dependency>
@@ -55,7 +55,7 @@
             <groupId>net.logstash.logback</groupId>
             <artifactId>logstash-logback-encoder</artifactId>
             <version>6.3</version>
-        </dependency> -->
+        </dependency>
         <dependency>
             <groupId>javax.validation</groupId>
             <artifactId>validation-api</artifactId>
@@ -63,6 +63,10 @@
         <dependency>
             <groupId>org.hibernate.validator</groupId>
             <artifactId>hibernate-validator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-config</artifactId>
         </dependency>
     </dependencies>
 
